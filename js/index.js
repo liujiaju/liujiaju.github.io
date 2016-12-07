@@ -36,6 +36,11 @@ $('.pop .close').tap(function () {
 $('.pop a').tap(function () {
     $('.pop').css({'display':'none'});
 });
+
+$('.pop .call').tap(function () {
+    $('.pop').css({'display':'none'});
+     location.hash="#call";  
+});
 //播放器
 // $('video').tap(function () {
 //     $(this).attr('play','play');
