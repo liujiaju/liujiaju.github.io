@@ -1,0 +1,9 @@
+
+*{ margin: 0; padding: 0; text-decoration: none; list-style: none; font-family: 'Microsoft Yahei'; }
+img{ vertical-align: top;
+    border:none; }
+a{color: #ccc;}
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix:after { content: ''; display: block; clear: both; }
+.clearfix{ zoom:1;}

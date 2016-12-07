@@ -1,0 +1,205 @@
+html {
+    font-size: 20px;
+}
+
+
+/*固顶条*/
+
+header {
+    height: 2.05rem;
+    width: 100%;
+    background: #040404;
+    position: relative;
+}
+
+header .nav {
+    height: 0.8rem;
+    width: 1.05rem;
+    background: url("../img/icon1.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    ;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.597rem;
+}
+
+header h1 {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2.05rem;
+    color: #fff;
+}
+
+
+/*跳转列表*/
+
+.pop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    display: none;
+}
+
+.pop .bg {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+}
+
+.pop ul {
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pop ul li {
+    width: 60%;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pop ul li hr {
+    background: #fff;
+}
+
+.pop ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.pop .close {
+    height: 1rem;
+    width: 1.05rem;
+    background: url("../img/close.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    ;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.597rem;
+    z-index: 11;
+}
+
+.pop .p-header {
+    height: 2.05rem;
+    width: 100%;
+    background: #040404;
+    position: relative;
+}
+
+.pop .p-header h1 {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2.05rem;
+    color: #fff;
+}
+
+
+/*选项卡*/
+
+#pro_intro img {
+    width: 100%;
+    height: auto;
+}
+
+#select {
+    background: #fafafa;
+    text-align: center;
+    font-size: 0.5rem;
+    display: -webkit-box;
+    padding: 2rem 0;
+}
+
+#select li {
+    -webkit-box-flex: 1;
+}
+
+#select a {
+    width: 100%;
+    margin: 0;
+    color: #aaa;
+}
+
+.active .intr-svg .st0 {
+    fill: red
+}
+
+.active p {
+    color: red;
+}
+
+.intr-svg {
+    width: 3rem;
+    height: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+#op_par {
+    width: 100%;
+    overflow: hidden;
+}
+
+#options {
+    color: #474747;
+    line-height: 1rem;
+    width: 400%;
+}
+
+#options li {
+    padding: 1.1rem 0 0 1.1rem;
+    width: calc(25% - 1.1rem);
+}
+
+#options .line {
+    display: block;
+    height: 1rem;
+    margin-right: 0.7rem;
+    border-left: 0.2rem solid #e30e22;
+}
+
+#options span {
+    color: #e30e22;
+}
+
+#options p {
+    font-size: 0.5rem;
+    margin: 1rem 1rem 0 1.3rem;
+}
+
+#options .icons {
+    margin: 1.5rem 0 1rem 1.3rem;
+}
+
+#options .icon {
+    width: 1.5rem;
+}
+
+#options .arrow {
+    width: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+#options .cards {
+    margin-left: 1.3rem;
+    display: -webkit-box;
+}
+
+#options .cards div {
+    -webkit-box-flex: 1;
+}
+
+#options .cards img {
+    width: 1rem;
+    float: left;
+    margin: 0 3px;
+}
