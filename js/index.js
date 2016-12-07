@@ -39,7 +39,10 @@ $('.pop a').tap(function () {
 
 $('.pop .call').tap(function () {
     $('.pop').css({'display':'none'});
-     location.hash="#call";  
+     
+
+
+$('html,body').animate({scrollTop:$('#call').offset().top},1000);  
 });
 //播放器
 // $('video').tap(function () {
