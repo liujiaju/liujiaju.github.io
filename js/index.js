@@ -37,13 +37,6 @@ $('.pop a').tap(function () {
     $('.pop').css({'display':'none'});
 });
 
-$('.pop .call').tap(function () {
-    $('.pop').css({'display':'none'});
-     
-
-
-$('html,body').animate({scrollTop:$('#call').offset().top},1000);  
-});
 //播放器
 // $('video').tap(function () {
 //     $(this).attr('play','play');
