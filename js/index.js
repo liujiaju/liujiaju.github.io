@@ -9,14 +9,14 @@
     win.addEventListener('resize',change,false);
 })(window,document);
 // 百度地图
-var map = new BMap.Map("map");    // 创建Map实例
-map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
-var point=new BMap.Point(116.5555,39.915);
-map.centerAndZoom(point, 14);
-map.centerAndZoom(point, 14);
-var marker = new BMap.Marker(new BMap.Point(116.5555,39.915));
-map.addOverlay(marker);
-map.disableDragging();
+// var map = new BMap.Map("map");    // 创建Map实例
+// map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+// var point=new BMap.Point(116.5555,39.915);
+// map.centerAndZoom(point, 14);
+// map.centerAndZoom(point, 14);
+// var marker = new BMap.Marker(new BMap.Point(116.5555,39.915));
+// map.addOverlay(marker);
+// map.disableDragging();
 
 var swiper = new Swiper('.swiper-container', {
     scrollbar: '.swiper-scrollbar',
